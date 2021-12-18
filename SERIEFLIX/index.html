@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+    <!--Icones-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <title>SERIEFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">SERIEFLIX</h2>
+            <nav class="links">
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Series de tv</a>
+            </nav>
+            <nav class="perfil">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-sign-out-alt"></i>
+            </nav>
+            
+        </div>
+
+    </header>
+
+    <main>
+        <div id="principalfilm" class="filme-principal">
+            <div class="container">
+                <h3 id="titulofilm" class="titulo">PESADELO NA COZINHA</h3>
+                <p id="descricaofilm" class="descricao">O programa comandado por Érick Jacquin, tem objetivo de levantar restaurantes que estão indo à falência.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <h1 style="margin-left:20px;margin-top: 50px;">MAIS ASSISTIDAS</h1>
+    <div class="carrosel-filmes">
+
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                   <img class="box-filme" onclick="ossimpsons();" src="img/ossimpsons.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="odeiaocris();" src="img/todomundoodeiaocris.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="malhacao();" src="img/malhacao.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="chaves();" src="img/chaves.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="chapolincolorado();" src="img/chapolincolorado.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="picapau();" src="img/pica pau.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="otemponaopara();" src="img/otemponaopara.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="policia();" src="img/policia.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="masterchef();" src="img/masterchef.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" onclick="apracaenossa();" src="img/apracaenossa.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+
+
+    
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/mudartexto.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+ 
+
+ 
+</body>
+</html>
