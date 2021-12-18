@@ -10,7 +10,7 @@ filme e descrições</p>
 
 <h2>Principais linguagens utilizadas </h2>
 
-*HTML
-*CSS
-*JavaScript
+* HTML
+* CSS
+* JavaScript
 
